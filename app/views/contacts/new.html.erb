@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<div class="container-fluid">
+<div class="hero-unit">
+<img src="/assets/IMG_0420.JPG" width="100%" height="500px">
+        
+        
+        </div>
+        </div>
+<body>
+
+<div class="container contact about">
+<div class="row text-center">
+<div class="col-lg-12">
+<h1><i class="fa fa-envelope-o"></i></h1>
+</div>
+<div class="col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 titlesHomepage">
+<h2>Contact</h2>
+<p>Let me know what you do for I can network with you<p>
+</div>
+</div>
+
+<!-- <div align="center">
+  <h3>Send A message to Us</h3>
+
+  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+    <%= f.input :name, :required => true %>
+    <%= f.input :email, :required => true %>
+    <%= f.input :number, :required => true %>
+    <%= f.input :occupation, :required => true %>
+    <%= f.input :message, :as => :text, :required => true %>
+    <div class= "hidden">
+      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+    </div>
+    <div>
+      </br>
+      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+    </div>
+  <% end %>
+</div> -->
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 sectionContent">
+<form role="form" action="MAILTO:wflieller@gmail.com" method="post" enctype="text/plain">
+    <div class="col-lg-12">
+      <div class="form-group">
+        <label for="Input-Name">Your Name</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="Name" id="Input-Name" placeholder="Enter Name" required>
+          <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+      </div>
+      <div class="form-group">
+        <label for="Input-Email">Your Email</label>
+        <div class="input-group">
+          <input type="email" class="form-control" id="InputEmail" name="Email" placeholder="Enter Email" required  >
+          <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+      </div>
+      <div class="form-group">
+        <label for="Input-Number">Your Phone Number</label>
+        <div class="input-group">
+          <input type="tel" class="form-control" name="Number" id="Input-Number" placeholder="Enter Phone Number" required>
+          <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+      </div>
+      <div class="form-group">
+      <label for="Input-Occupation">Your Occupation</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="Occupation" id="InputOccupation" placeholder="Enter Occupation" required>
+          <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+      </div>
+      <div class="form-group">
+        <label for="Input-Message">Message</label>
+        <div class="input-group"
+>
+          <textarea name="Message" id="InputMessage" class="form-control" rows="7" required></textarea>
+          <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+      </div>
+      
+      <input type="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+    </div>
+  </form>
+  <h3>Work Number: <a href="tel:1-512-484-6397">1-512-484-6397</a> </h3>
+  </div>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
